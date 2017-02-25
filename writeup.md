@@ -34,6 +34,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 
 There are many possible shortcommings:
+
 1. when the car is in large degree depart the lane, which will make the predefined ROI less effective;
 2. when the car/road is heading upwards or downwards, ROI setting and line detection would be less effective too;
 3. when the lane lines' marks are not in good visible condition, the Canny edge detection maybe not so effective;
@@ -41,6 +42,7 @@ There are many possible shortcommings:
 
 
 ###3. Suggest possible improvements to your pipeline
+Possible improvements:
 
 1. Try use and find some camera/geometry information, for example, vanishing points, to help set and update ROI, which will lead line detection more effective;
 2. Use color information to help edge detection more precise;
